@@ -33,7 +33,7 @@ fn main() {
     }
     impl<'a> Display for Person<'a> {
         fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-            writeln!(f, "The person is {}, he is {}", self._name, self._age)
+            write!(f, "The person is {}, he is {}", self._name, self._age)
         }
     }
 
