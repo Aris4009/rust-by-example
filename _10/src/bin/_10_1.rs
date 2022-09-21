@@ -1,4 +1,6 @@
 #[allow(dead_code)]
+#[allow(unconditional_recursion)]
+
 //一个名为my_mod的模块,模块中的项默认是私有的
 mod my_mod {
     //默认私有可见性

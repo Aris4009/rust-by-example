@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+#![allow(unused_imports)]
 macro_rules! say_hello {
     () => {
         println!("Hello");

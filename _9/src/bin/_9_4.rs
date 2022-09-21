@@ -1,8 +1,9 @@
+#[allow(unreachable_code)]
 fn main() {
-    let a = some_fn();
+    let _a = some_fn();
     println!("This function returns and you can see this line.");
 
-    let x = foo();
+    let _x = foo();
     println!("You will never see this line!");
 }
 

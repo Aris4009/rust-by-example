@@ -1,3 +1,5 @@
+#[allow(path_statements)]
+#[allow(unused_must_use)]
 fn main() {
     let x = 5;
     x;
